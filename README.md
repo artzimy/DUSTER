@@ -36,7 +36,7 @@ Also included is code for T<sub>1</sub> mapping calculation from VFA-SPGR data, 
 In case the termporal resolution is good enough (i.e. volume every < 3 seconds), the 2-compartments-exchange-model may be used, providing additional flow information. Code for the analysis, based on \[7\], is provided here. If you're interested, please contact us.
 
 # Other sofware used
-This code includes stuff from:
+This code includes stuff from:\
 SPM8 from https://www.fil.ion.ucl.ac.uk/spm/software/spm8/ \
 NIFTI-Tools from https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image \
 MRIcron from https://people.cas.sc.edu/rorden/mricron/index.html
