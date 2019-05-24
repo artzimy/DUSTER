@@ -5,7 +5,7 @@ MRI DCE analysis
 ------------------
 # Installation
 Just download and put somewhere.
-The code is all MATLAB, so should be platform independent. Tested on Ubuntu with MATLAB 2018-19.
+DUSTER is written in MATLAB, so it should be platform independent. Tested on Ubuntu with MATLAB 2018-19.
 # Run
 Edit /Code/DCE/DCE_Main.m :
 Provide the .nii file names: 
