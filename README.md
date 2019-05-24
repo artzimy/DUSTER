@@ -30,7 +30,7 @@ And finally, a UI for exploring the results.
 
 # More inside
 ## T<sub>1</sub> mapping from VFA-SPGR data
-Also included is code for T1 mapping calculation from VFA-SPGR data, using the nominal FAs, and estimation of the real FAs produced by the system.
+Also included is code for T<sub>1</sub> mapping calculation from VFA-SPGR data, using the nominal FAs, and estimation of the real FAs produced by the system.
 
 ## 2CXM
 In case the termporal resolution is good enough (i.e. volume every <3sec), the 2-compartments-echange-model may be used, providing additional flow information. Code for the analysis, based on [X], is provided here. If you're interested, please contact us.
