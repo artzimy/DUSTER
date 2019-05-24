@@ -1,7 +1,7 @@
 # DUSTER
 MRI DCE analysis
 ------------------
-![Banner](/docs/banner1.png)
+![Banner](/docs/Banner1.png)
 ------------------
 # Installations
 # Run
