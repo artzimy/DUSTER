@@ -19,7 +19,7 @@ We normally use ~60 volumes at ~6 secons temporal resolution, with TR ~5ms, and 
 Detailed info [here](https://giladddd.github.io/DUSTER/UIs.html). \
 The program includes 2 UIs for manual inspection/intervention during the analsys:
 1. Arterial voxels selection UI,
-2. AIF parameters UI.
+2. AIF parameters UI. \
 And finally, a UI for exploring the results.
 
 # More inside
