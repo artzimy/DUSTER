@@ -20,7 +20,7 @@ Also needed:
 * TR in ms.
 * FA in degrees.
 
-We normally use ~60 volumes at ~6 secons temporal resolution, with TR ~5ms, and FA ~20.
+We normally acquire ~60 volumes at a temporal resolution of ~6 seconds, with TR ~5ms, and FA ~20<sup>o</sup>.
 ## UIs
 The program includes 2 UIs for manual inspection/intervention during the analsys:
 1. Arterial voxels selection UI. Several voxels with significant arterial content should be chosed, preferably from the artery feeding the tumor. The system is robust to inaccurate selection.
