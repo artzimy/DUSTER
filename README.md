@@ -18,10 +18,8 @@ We normally use ~60 volumes at ~6 secons temporal resolution, with TR ~5ms, and 
 ## UIs
 
 # More inside
-
-# 2CXM
-
-# T1 mapping from VFA-SPGR data
+## 2CXM
+## T1 mapping from VFA-SPGR data
 
 # Other sofware used
 This code includes stuff from:
