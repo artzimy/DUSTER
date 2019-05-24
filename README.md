@@ -9,9 +9,9 @@ The code is all MATLAB, so should be platform independent. Tested on Ubuntu with
 # Run
 Edit /Code/DCE/DCE_Main.m :
 Just provide the .nii files: one for the main DCE run, one for T1 map and optionally one for B1<sup>+</sup> map. The files should be already coregistered and aligned/motion corrected.
-Also provide:
-TimeBetweenDCEVols in secons.
-TR in ms.
+Also needed:\
+TimeBetweenDCEVols in secons.\
+TR in ms.\
 FA in degrees.
 
 We normally use ~60 volumes at ~6 secons temporal resolution, with TR ~5ms, and FA ~20.
