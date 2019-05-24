@@ -49,4 +49,4 @@ MRIcron from https://people.cas.sc.edu/rorden/mricron/index.html \
 
 \[7\] "Optimization of two-compartment-exchange-model analysis for dynamic contrast-enhanced mri incorporating bolus arrival time.", *Journal of Magnetic Resonance Imaging*, DOI: [10.1002/jmri.25362](http://dx.doi.org/10.1002/jmri.25362)
 
-\[8\] "$T_1$ Mapping using Variable Flip Angle SPGR Data with Flip Angle Correction.", *Journal of Magnetic Resonance Imaging*, DOI: [10.1002/jmri.24373](http://dx.doi.org/10.1002/jmri.24373)
+\[8\] "T<sub>1</sub>$ Mapping using Variable Flip Angle SPGR Data with Flip Angle Correction.", *Journal of Magnetic Resonance Imaging*, DOI: [10.1002/jmri.24373](http://dx.doi.org/10.1002/jmri.24373)
