@@ -44,6 +44,21 @@ Some optional calls to FSL https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/
 # Contact
 giladliberman@gmail.com
 
+# Output maps (nii formt)
+>>DCE Maps
+Ktrans - The transfer coefficient of concentration between the bloood plasma and extravascular extracellular space (EES) given in 1/min.
+Ve - Total EES volume. Given in arbitrary units (0-1).
+Vp - Total blood plasma volume. Given in arbitrary units (0-1).
+Kep -  The rate of consentaion ("Invers premability" - What returns blood vessels). given in 1/min.
+BAT - Bolus arrival time Ve. Given in secounds.
+RMS - Root mean squareerror map per voxel relative to the AIF
+rRMS3D and RMStoNoise - normelized RMS maps
+
+>>Relaxometry folder:
+T13DOFA - T1 map
+PD3DOFA - PD map
+RMS3DOFA - RMS of relaxometry map
+
 # Refs
 \[1\] DUSTER: Dynamic contrast enhance up-sampled temporal resolution analysis method, *Magnetic Resonance Imaging*, DOI: [10.1016/j.mri.2015.12.014](http://dx.doi.org/10.1016/j.mri.2015.12.014)
 
