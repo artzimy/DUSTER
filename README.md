@@ -29,7 +29,6 @@ The program includes 2 UIs for manual inspection/intervention during the analsys
 And finally, a UI for exploring the results.
 
 ## Output maps (nii formt)
-DCE Maps
 *K<sup>trans</sup>* - The transfer coefficient of concentration between the bloood plasma and extravascular extracellular space (EES) given in 1/min. \
 *V<sub>e</sub>* - Total EES volume. Unitless (0-1). \
 *V<sub>p</sub>* - Total blood plasma volume. Unitless (0-1). \
