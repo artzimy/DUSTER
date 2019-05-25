@@ -1,5 +1,5 @@
 # DUSTER
-Tofts model based MRI DCE analysis
+Tofts model based MRI DCE analysis with bolus arrival time estimation
 ------------------
 ![Banner](/docs/Banner1.png)
 ------------------
@@ -28,6 +28,16 @@ The program includes 2 UIs for manual inspection/intervention during the analsys
 
 And finally, a UI for exploring the results.
 
+## Output maps (nii formt)
+DCE Maps
+*K<sup>trans</sup>* - The transfer coefficient of concentration between the bloood plasma and extravascular extracellular space (EES) given in 1/min. \
+*V<sub>e</sub>* - Total EES volume. Unitless (0-1). \
+*V<sub>p</sub>* - Total blood plasma volume. Unitless (0-1). \
+*K<sub>ep</sub>* -  The rate of consentaion ("Inverse permeability"). given in 1/min. \
+*BAT* - Bolus arrival time V<sub>e</sub>. Given in secounds. \
+*RMS* - Root mean square error map per voxel relative to the AIF \
+*rRMS3D* and *RMStoNoise* - normelized RMS maps
+
 # More inside
 ## T<sub>1</sub> mapping from VFA-SPGR data
 Also included is code for T<sub>1</sub> mapping calculation from VFA-SPGR data, using the nominal FAs, and estimation of the real FAs produced by the system, detailed in \[8\].
@@ -43,16 +53,6 @@ MRIcron from https://people.cas.sc.edu/rorden/mricron/index.html \
 Some optional calls to FSL https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/
 # Contact
 giladliberman@gmail.com
-
-# Output maps (nii formt)
-DCE Maps
-*K<sup>trans</sup>* - The transfer coefficient of concentration between the bloood plasma and extravascular extracellular space (EES) given in 1/min. \
-*V<sub>e</sub>* - Total EES volume. Unitless (0-1). \
-*V<sub>p</sub>* - Total blood plasma volume. Unitless (0-1). \
-*K<sub>ep</sub>* -  The rate of consentaion ("Inverse permeability"). given in 1/min. \
-*BAT* - Bolus arrival time V<sub>e</sub>. Given in secounds. \
-*RMS* - Root mean square error map per voxel relative to the AIF \
-*rRMS3D* and *RMStoNoise* - normelized RMS maps
 
 # Refs
 \[1\] DUSTER: Dynamic contrast enhance up-sampled temporal resolution analysis method, *Magnetic Resonance Imaging*, DOI: [10.1016/j.mri.2015.12.014](http://dx.doi.org/10.1016/j.mri.2015.12.014)
